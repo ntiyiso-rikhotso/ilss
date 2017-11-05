@@ -2,7 +2,7 @@
 if (!defined('BASEPATH'))
 	exit('No direct script access allowed');
 class Ilss extends CI_Model {
-	protected $no_data;
+	public $no_data;
 	public $year;
 	public $account_type, $page_data;
 	function __construct() {
